@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <style>
-      .dummy{
-          color: rgb(85, 142, 241);
-      }
-  </style>
-</head>
-<body onload="dummy()">
-    <button id="primarybtn">primarybutton</button>
-    <button id="secondarybtn">secondarybutton</button>
 
-    <script>
         let one = document.getElementById("primarybtn");
         let two = document.getElementById("secondarybtn");
      function dummy(){
@@ -31,6 +14,3 @@
           two.style.backgroundColor = "black"
         }
      }
-    </script>
-</body>
-</html>
